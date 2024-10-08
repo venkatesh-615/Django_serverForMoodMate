@@ -5,7 +5,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Fetch Python version from the environment
-PYTHON_VERSION = os.getenv('PYTHON_VERSION', '3.9.18')  # Default to 3.9.18 if not set
+PYTHON_VERSION = os.getenv('PYTHON_VERSION', '3.9.0')  # Default to 3.9.18 if not set
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
